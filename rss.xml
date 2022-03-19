@@ -1,198 +1,252 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bee starter]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://gatsby-starter-bee.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 19 Mar 2022 06:42:20 GMT</lastBuildDate><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://gatsby-starter-bee.netlify.com/development/quick_start/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
-&lt;h2 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site.&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If you are not using &lt;code class=&quot;language-text&quot;&gt;npx&lt;/code&gt;, following &lt;a href=&quot;https://www.gatsbyjs.org/docs/quick-start&quot;&gt;Gatsby Getting Started&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;2-start-developing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-start-developing&quot; aria-label=&quot;2 start developing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Start developing.&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ cd my-blog-starter/
-$ npm start
-# open localhost:8000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;3-add-your-content&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-add-your-content&quot; aria-label=&quot;3 add your content permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Add your content&lt;/h2&gt;
-&lt;p&gt;You can write…&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[leo-xee.io]]></title><description><![CDATA[Leo's Tech-Blog]]></description><link>https://leo-xee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 19 Mar 2022 11:28:17 GMT</lastBuildDate><item><title><![CDATA[PS]]></title><link>https://leo-xee.github.io/PS/ps/</link><guid isPermaLink="false">https://leo-xee.github.io/PS/ps/</guid><pubDate>Sat, 19 Mar 2022 18:04:29 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[React]]></title><link>https://leo-xee.github.io/React/react/</link><guid isPermaLink="false">https://leo-xee.github.io/React/react/</guid><pubDate>Sat, 19 Mar 2022 18:04:19 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Book]]></title><link>https://leo-xee.github.io/Book/book/</link><guid isPermaLink="false">https://leo-xee.github.io/Book/book/</guid><pubDate>Sat, 19 Mar 2022 18:04:09 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Git]]></title><link>https://leo-xee.github.io/DevOps/git/</link><guid isPermaLink="false">https://leo-xee.github.io/DevOps/git/</guid><pubDate>Sat, 19 Mar 2022 18:03:59 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[CS]]></title><link>https://leo-xee.github.io/CS/cs/</link><guid isPermaLink="false">https://leo-xee.github.io/CS/cs/</guid><pubDate>Sat, 19 Mar 2022 18:03:51 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[TS]]></title><link>https://leo-xee.github.io/TypeScript/ts/</link><guid isPermaLink="false">https://leo-xee.github.io/TypeScript/ts/</guid><pubDate>Sat, 19 Mar 2022 18:03:04 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[JS] 데이터 타입과 메모리 참조 방법]]></title><description><![CDATA[JavaScript 데이터 타입의 분류 자바스크립트의 데이터 타읍은 크게 2종류로 나누어진다. 기본형 타입(Primitive Type) Number String Boolean Null Undefined Symbol 참조형 타입(Reference…]]></description><link>https://leo-xee.github.io/JavaScript/js/</link><guid isPermaLink="false">https://leo-xee.github.io/JavaScript/js/</guid><pubDate>Sat, 27 Nov 2021 03:02:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/b6422d8815031d57cf3948e4032caf37/thumbNail.gif&quot; alt=&quot;JavaScript&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;데이터-타입의-분류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85%EC%9D%98-%EB%B6%84%EB%A5%98&quot; aria-label=&quot;데이터 타입의 분류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;데이터 타입의 분류&lt;/h1&gt;
+&lt;p&gt;자바스크립트의 데이터 타읍은 크게 2종류로 나누어진다.&lt;/p&gt;
+&lt;p&gt;기본형 타입(Primitive Type)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;contents to blog in &lt;code class=&quot;language-text&quot;&gt;content/blog&lt;/code&gt; directory.&lt;/li&gt;
-&lt;li&gt;resume &lt;code class=&quot;language-text&quot;&gt;content/__about&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;Number&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;li&gt;Boolean&lt;/li&gt;
+&lt;li&gt;Null&lt;/li&gt;
+&lt;li&gt;Undefined&lt;/li&gt;
+&lt;li&gt;Symbol&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;With markdown syntax and some meta data&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;support-script-for-creating-new-post&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#support-script-for-creating-new-post&quot; aria-label=&quot;support script for creating new post permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Support script for creating new post&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/34628ec574f22bee7a31c7f208a84e79/cli-tool-example.gif&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;$ npm run post&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;4-fix-meta-data&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-fix-meta-data&quot; aria-label=&quot;4 fix meta data permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Fix meta data&lt;/h2&gt;
-&lt;p&gt;You can fix meta data of blog in &lt;code class=&quot;language-text&quot;&gt;/gatsby-meta-config.js&lt;/code&gt; file.&lt;/p&gt;
-&lt;h2 id=&quot;5-publish-with-netlify&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-publish-with-netlify&quot; aria-label=&quot;5 publish with netlify permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Publish with &lt;a href=&quot;https://netlify.com&quot;&gt;netlify&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee&quot;&gt;&lt;img src=&quot;https://www.netlify.com/img/deploy/button.svg&quot; alt=&quot;Deploy to Netlify&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;💡 if you want to deploy github pages, add following script to package.json&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master -r &apos;git@github.com:${your github id}/${github page name}.github.io.git&apos;&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1 id=&quot;memo-write-a-post&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#memo-write-a-post&quot; aria-label=&quot;memo write a post permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;:memo: Write a post!&lt;/h1&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;content
-├── __about
-└── blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;참조형 타입(Reference Type)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;You can register your resume on the web. (in &lt;code class=&quot;language-text&quot;&gt;__about&lt;/code&gt; directory)&lt;/li&gt;
-&lt;li&gt;You can register your post. (in &lt;code class=&quot;language-text&quot;&gt;blog&lt;/code&gt; directory)&lt;/li&gt;
+&lt;li&gt;Array&lt;/li&gt;
+&lt;li&gt;Function&lt;/li&gt;
+&lt;li&gt;RegExp&lt;/li&gt;
+&lt;li&gt;Set/WeakSet&lt;/li&gt;
+&lt;li&gt;Map/WeakMap&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;🧐-customize&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%F0%9F%A7%90-customize&quot; aria-label=&quot;🧐 customize permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🧐 Customize!&lt;/h1&gt;
-&lt;h2 id=&quot;gatsby-config&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby-config&quot; aria-label=&quot;gatsby config permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby config&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;structure&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#structure&quot; aria-label=&quot;structure permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Structure&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;style&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#style&quot; aria-label=&quot;style permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Style&lt;/h2&gt;
-&lt;p&gt;You can customize color in &lt;code class=&quot;language-text&quot;&gt;src/styles&lt;/code&gt; directory.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Welcome to gatsby-starter-bee!
-Happy blogging! 👻&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Welcome Bee starter]]></title><description><![CDATA[Welcome, Gatsby! This starter is full-package for your new blog! 1. Support Four frontmatter title date category draft 2. Code highlighting…]]></description><link>https://gatsby-starter-bee.netlify.com/development/hello/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/development/hello/</guid><pubDate>Sat, 04 Jul 2020 12:21:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 466px;&quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 95.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAADIklEQVQ4y21UZ09UQRR9v0Jjib3E2Hv5YoyJGk0MgmIBFRCkaCIawYISTNQEF6RIBwVZFKQYmkGagJGioIIUwYgYQJpIXZa2u8d3L77He7g3mbzZ2Zkz59x75gr4FyaTiYc0NxqMMBpNmBmGyel15RkpBCUgBW1WbhrTT2CoTw/dwKhqnS5UEpABlbfQJimqS34ixD0H7nvicG59OJy3ROK2ZRLSgivQ2zE0BWQ0/QcqzAQjNoEXX+HoPH8GCnDLRpKmFHE+RfCySMSx+f5w2hSBktR6s6kSJJkUw/2jzIIOpQSUs8w/ncNo/tKF1qZejAyN4UdtN24efg7LOX7Iif2sks+AyhtCLr9mZmXZTRgdmUC4Rx5LtV0ejLOrQnB1XzxKMxqZgL9zFk4tDUJDRZtKoSBNvr5vZ2bae28xMW6Ax34tTi4OZHnOW6MY2H5tGE4sCkBqUAUe3yrE8YUB8LVPV0mXAWO8CvkAyQ6/mstgbjtjcH5zpDwI1HV7NOxWh8JhXRhctkXBaWMEWup7ZIcIkrd8rJP5QF/XMIpT6nF65aMpIHGNWNLcUTxsuyKY/6NhtyaUv7RfwmFASvb1Q8/4VsoT/S5Ja+DcScwcN4Tjwq4YRN0o4Io/8X6DINENNsuCkB39UQ04PjrJQL4O6ewztx3R0A+Py6AEeE4EvLL3KRorf7FE3eAYV/7kkkDkaWumASXLUNWIAUWS5h3nT68bZzkSUxokn4r3Ifc7SjMbeV5X1ipXWiBUCjpI3pLyEX+3hC8gUJmpWG1idP/MS34l3lYvcGl3LMZEi8nGljxIi2QVqmJ36wCvaUVQV1H+iCiPXgaB+TpksK0ob0dma2RzG/6ZW1Casr68jatGufr2qYPX0kM/cH77e3T43T7Ihs+MqITVXD9onDJVncfsW64qaGZ70Ct4JDaHqvxm3DmegmsHE5CfUMNfi1kP4O+SxYVTPl2VZPpIoJ0t/Yj0zOfmYL3gIRvZRswhvQzPA1oUJtaq2piK4cx+pmxhfd06VBe3oCi5jitKTWJywjC910yjFcx1bNporlvLXXtGc1US+gtbe+VlgtA+ywAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;hello&quot;
-        title=&quot;hello&quot;
-        src=&quot;/static/31955aadfaea1bcef76bb662347d1af4/fc1a1/hello.png&quot;
-        srcset=&quot;/static/31955aadfaea1bcef76bb662347d1af4/5a46d/hello.png 300w,
-/static/31955aadfaea1bcef76bb662347d1af4/fc1a1/hello.png 466w&quot;
-        sizes=&quot;(max-width: 466px) 100vw, 466px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Welcome, Gatsby! This starter is full-package for your new blog!&lt;/p&gt;
-&lt;h2 id=&quot;1-support-four-frontmatter&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-support-four-frontmatter&quot; aria-label=&quot;1 support four frontmatter permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Support Four frontmatter&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
-title: &apos;Welcome Bee starter&apos;
-date: 2019-2-6 16:21:13
-category: &apos;development&apos;
-draft: false
----&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;title&lt;/li&gt;
-&lt;li&gt;date&lt;/li&gt;
-&lt;li&gt;category&lt;/li&gt;
-&lt;li&gt;draft&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;2-code-highlighting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-code-highlighting&quot; aria-label=&quot;2 code highlighting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Code highlighting&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;With &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;Fira Code&lt;/a&gt; font&lt;/li&gt;
-&lt;li&gt;Support highlighting with &lt;a href=&quot;https://github.com/PrismJS/prism&quot;&gt;prism&lt;/a&gt;
-2-1. Use inline highlighting&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
-
-&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;TEMPLATE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;gatsby-starter-bee&apos;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Foo&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function-variable function&quot;&gt;handleClick&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;val &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bar&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;val &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;zoo&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;clicked&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Welcome&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Gatsby&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;TEMPLATE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;code&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;메모리-참조-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%B0%B8%EC%A1%B0-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;메모리 참조 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;메모리 참조 방법&lt;/h1&gt;
+&lt;h2 id=&quot;기본형-타입&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8%ED%98%95-%ED%83%80%EC%9E%85&quot; aria-label=&quot;기본형 타입 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본형 타입&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1046px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1112px;&quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 105%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAAC4UlEQVQ4y52UbU/TUBiG91cQ2Lq163t72vVlZWPjxRBjYvwNSqK/ARL9ZmIUEzXKhwEjgEGDBgyIyO/ah90+z+lwQwcRPtw97cnp1ft5a+Hw+0nv5PSsd3p23vvx89ctdd47JgazCodHx/iwvoEXL99i7dV7rK2R3txMr1+/w8f1DgiIwt7ng/6D9v3+w8jsG023ryhuv1IklVjOH5WL46XS+ekJoz/bWOrvf/naL2x2dzBbX4RRMqEZAsq0LVWSq0OrI1eCggD/iD6M6Tsm6skctrZ3UOhsdjGTLcA1QkTuDKKgDVuPENg12FWBwBSwNV+CGaCMgFiq4qE4aSKN59DZ3GbgNhr1BfjkzjVrCMUsBIFdowaLQKEVwNUFTNWHQTJVD3rZuwT9C9hFM1uEo3nwrAhx2EZNtGBWCag6qNkBBLkMLQ/C8BDRs6eLQRrGAnOHgtxFfgue3UTkJEhFgkRkSPyYQk/hGPRRYx5aOZJhM6h8FZATaqox6uE9gt5F7LURUg5baRuxG0GvBAQKUSVxzvICuVc7zNJ5TE3osKo+2kmGTMRwqCBu1ZN50wiiKqPVZXfD4owFcukdnVxFGVU7hqB8unoIW3UJ7MuiqYrIQx0pyLVAQwtkqNxC1bIPldtCtoabuxoBXVPlITAL6mjUUvhWSuE3yaGP2All61RKw1b5L4fFSQvCjlBzItnQefJzh5VrxO7HVHkelaINUxMytNJg5EqXRjBfuWVKU7YUjyifn5oYAW7QJaW20ahqS40W6hS2zxNDuYyoZUJy7eiBdO6bIU1PgLpISQmNJ40opcOqOONCtqGr+YixOGwGsQzad42A9vJ73rt45nPVkn159LJ0QYbAOVEGf5dLKg7/Onw/+hfKQzaQRO1ByFs0ejTLnNiLQoyVclVRPDJjSlPMKuzu7WNl9TmWl5/i0eMntxK/u7L6DDvEKhx8O8Lup31J72x0wSm4kegdfpcZzPoN0agnefU0/LsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 38.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAACBklEQVQoz2WR30tTYRzGzx8RdBMFYRcmXRRhN910E9FNf0HRhXeFQUkgjTCJSFpO+2FUzmBqJuZILd0Pna0sSVdJPzanS+fcxpZH3Tjbzo+d+enszIjqgQfe53mf9/u+3/craEWdMiZ8furq6qm/eJnTZ87S8eCh6RdLWxR1HVmWUTXN9NrbOzh46CjHT5xkf3UN/QODpq9qRQQomWJ4oI+aqr0cO3yAI/t20XjpAr+hKjKJZNKIVgreb71F1Z6dnKqtpnb3Dpz9T7eTJYSxRQlnKEdfIIl9agn72yU6/REcH1ZxBrO8mM+RkStdzMQLOMMK1qEA5+46aXj0kvPtz7nnDTIclhgMSQgtk3GueBI0jS7QOBTC8ipCs2eZprEIltEfNPlSxNZzZsFncz9pcCW44V3m+niMZtcSLf4k19zLWEbCXPWlyy3/weaaiJYv8C9URUGSpL+8Ui7PVjr9X1aITz8mOmnlm8vK4kSbQRtBt5WQ5zYLXiuJqTtspqOkxCypryOs+G7y3d3KwriNiK/NzM57WwkbjL+xIaQ/9yN+chCf6SH6zs7q9BMSs92G7iYVcLA+10MhW3nJRuQ14scuY7+XlfddZj4520PMOBM1dOZLL0Imr5M3hqcYw05v5BGzqrkue2VKCsiKSkkvIhV0cttZMauQMv5W3TIukjTWMjLl2f0CrwUdYwFmIWEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;code example&quot;
-        title=&quot;code example&quot;
-        src=&quot;/static/14a95f9ea1a2560a874efa82ad7db24f/1c1a4/code_example.png&quot;
-        srcset=&quot;/static/14a95f9ea1a2560a874efa82ad7db24f/5a46d/code_example.png 300w,
-/static/14a95f9ea1a2560a874efa82ad7db24f/0a47e/code_example.png 600w,
-/static/14a95f9ea1a2560a874efa82ad7db24f/1c1a4/code_example.png 1046w&quot;
-        sizes=&quot;(max-width: 1046px) 100vw, 1046px&quot;
+        alt=&quot;그림1. 기본형 타입의 메모리 참조 방법&quot;
+        title=&quot;그림1. 기본형 타입의 메모리 참조 방법&quot;
+        src=&quot;/static/35c5fe0732e5c607ed3e18970255f3c9/3fca6/datatype-referMemory-01.png&quot;
+        srcset=&quot;/static/35c5fe0732e5c607ed3e18970255f3c9/5a46d/datatype-referMemory-01.png 300w,
+/static/35c5fe0732e5c607ed3e18970255f3c9/0a47e/datatype-referMemory-01.png 600w,
+/static/35c5fe0732e5c607ed3e18970255f3c9/3fca6/datatype-referMemory-01.png 1112w&quot;
+        sizes=&quot;(max-width: 1112px) 100vw, 1112px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&quot;3-support-markdown-h2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-support-markdown-h2&quot; aria-label=&quot;3 support markdown h2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Support Markdown (h2)&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;With &lt;a href=&quot;https://fonts.google.com/specimen/Noto+Sans&quot;&gt;Noto Sans&lt;/a&gt; font&lt;/li&gt;
-&lt;li&gt;Support header anchoring&lt;/li&gt;
+&lt;li&gt;임의의 주소 1000번의 이름을 &lt;code class=&quot;language-text&quot;&gt;식별자 a&lt;/code&gt;를 지정한다.&lt;/li&gt;
+&lt;li&gt;3001번에 &lt;code class=&quot;language-text&quot;&gt;문자열 Dog&lt;/code&gt;를 저장하고 &lt;code class=&quot;language-text&quot;&gt;식별자 a&lt;/code&gt;를 검색해 값을 3001번으로 지정한다.&lt;/li&gt;
+&lt;li&gt;3003번에 &lt;code class=&quot;language-text&quot;&gt;문자열 Cat&lt;/code&gt;을 저장하고 &lt;code class=&quot;language-text&quot;&gt;식별자 a&lt;/code&gt;를 검색해 값을 3001번에서 3003번으로 변경한다.&lt;/li&gt;
+&lt;li&gt;참조 카운트가 0이 된 3001번은 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/Garbage_collection&quot;&gt;GC(Garbage Collection)&lt;/a&gt;에 의해 초기화된다.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;h3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#h3&quot; aria-label=&quot;h3 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;h3&lt;/h3&gt;
-&lt;h4 id=&quot;h4&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#h4&quot; aria-label=&quot;h4 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;h4&lt;/h4&gt;
-&lt;h5 id=&quot;h5&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#h5&quot; aria-label=&quot;h5 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;h5&lt;/h5&gt;
-&lt;blockquote&gt;
-&lt;p&gt;quote!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt; &lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&quot;4-support-emoji-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-support-emoji-&quot; aria-label=&quot;4 support emoji  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Support emoji 🚀&lt;/h2&gt;
-&lt;p&gt;Based on &lt;a href=&quot;https://github.com/emojione/emojione&quot;&gt;emojione&lt;/a&gt; 🙏&lt;/p&gt;
-&lt;h2 id=&quot;5-support-lightdark-mode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-support-lightdark-mode&quot; aria-label=&quot;5 support lightdark mode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Support light/dark mode&lt;/h2&gt;
-&lt;h2 id=&quot;6-support-social-sharing-feature&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-support-social-sharing-feature&quot; aria-label=&quot;6 support social sharing feature permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Support social sharing feature&lt;/h2&gt;
+&lt;h2 id=&quot;참조형-타입&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0%ED%98%95-%ED%83%80%EC%9E%85&quot; aria-label=&quot;참조형 타입 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조형 타입&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1005px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACHElEQVQoz22QS09TURSFL1MnJv4BB8apxDjwBzhwZFQcqGNHKKYYUAlhYCSgUMZG1FI0YKxRSbAYhFjeYsHQQitoX5TSi+UGS0pvX/f1eR+JMcadrKxzvrPOyd5HMAyDf6WqKlZ5vS84UX+aM+fOU3/qJB6P1+aaqvG/e5YEO4HB366piu1udx91dXUcO36UI4cP0dfbY3NV0/5zyylB1XRUwwrpKLphe01zIjPzi7S1d9DZ2UX7nbvMTk3bXFfMDs0cf2Sgqw4Tzg6JNHjCXPJluTwcp8EncnEgwoWhFFeGYlydKDM3mYL7H8i0vWaj2cu6a4B483MirmfEmgeJujzkXC/ZeTSJsCkV2NrNE02JTM4HiYt7ZKR9Urm8zb9nJZKJNLIokQh/I7m2QS6ZQUptk16Pkc/8ZD+7S9HMSVsiQqWm210XDmTS6W1Kpaq9VxSHl8oKhUKRmpmzzioVxVxrVKuqKcXJmSNbTJbLCJL/GhHfdX68vUFy9BaJkZvE3jURedVoskZ+jTWxFPLgXuugd7GVB7OmZlp4uHCbroDlrXRPt9Kz0oJv4wlCMTVFPjFHfGmEN0/vMT7sZnSwm4X3/Xz29xP0PyYUDhDdCxEWv7C6s0woGzTXQcd3gjZbzQWJbofMB6sG5ZrBlvkH/vFPTATmGPsYYGklwvJKlMWvq2xuZtAqOlW5hlI2x5XNsS2VHLdYTVY5yBf5DaeIa82VD8RgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림2. 참조형 타입의 메모리 참조 방법 - 1&quot;
+        title=&quot;그림2. 참조형 타입의 메모리 참조 방법 - 1&quot;
+        src=&quot;/static/2fce26ae6876f406cab8fe1f0a7338ff/18c13/datatype-referMemory-02.png&quot;
+        srcset=&quot;/static/2fce26ae6876f406cab8fe1f0a7338ff/5a46d/datatype-referMemory-02.png 300w,
+/static/2fce26ae6876f406cab8fe1f0a7338ff/0a47e/datatype-referMemory-02.png 600w,
+/static/2fce26ae6876f406cab8fe1f0a7338ff/18c13/datatype-referMemory-02.png 1005w&quot;
+        sizes=&quot;(max-width: 1005px) 100vw, 1005px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Twitter&lt;/li&gt;
-&lt;li&gt;Facebook&lt;/li&gt;
+&lt;li&gt;임의의 주소 1001번의 이름을 &lt;code class=&quot;language-text&quot;&gt;식별자 obj&lt;/code&gt;로 지정한다.&lt;/li&gt;
+&lt;li&gt;저장할 데이터가 많기 때문에 5001번부터 어느 정도의 공간을 확보해두고 그 값을 주소 3000번에 저장한다.&lt;/li&gt;
+&lt;li&gt;5001번의 이름을 &lt;code class=&quot;language-text&quot;&gt;식별자 a&lt;/code&gt;로 지정하고 3001번에 10을 저장한 다음 5001번의 값을 3001번으로 지정한다.&lt;/li&gt;
+&lt;li&gt;5002번의 이름을 &lt;code class=&quot;language-text&quot;&gt;식별자 b&lt;/code&gt;로 지정하고 3002번에 &lt;code class=&quot;language-text&quot;&gt;문자열 Leo&lt;/code&gt;를 저장한 다음 5002번의 값을 3002번으로 지정한다.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;bonus-code-classlanguage-textbuy-me-a-coffeecode-button&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bonus-code-classlanguage-textbuy-me-a-coffeecode-button&quot; aria-label=&quot;bonus code classlanguage textbuy me a coffeecode button permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bonus, &lt;code class=&quot;language-text&quot;&gt;Buy me a coffee&lt;/code&gt; button&lt;/h3&gt;
-&lt;p&gt;Set, &lt;code class=&quot;language-text&quot;&gt;buyMeACoffeeId&lt;/code&gt; of &lt;code class=&quot;language-text&quot;&gt;gatsby-meta-config.js&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&quot;7-comments-feature&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#7-comments-feature&quot; aria-label=&quot;7 comments feature permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;7. Comments feature&lt;/h2&gt;
-&lt;p&gt;You can add comments feature by selecting one of them.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1005px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB40lEQVQoz32R30tTYRzGz/8hFYOCuukiqjvpqgshlTD8ByKEbiPqRrOLrsKlEoG4w9q0ZsQ6c85fcyYRMnHbsc0z52wN5u+52fT0c+2c8+l0HChLfOHD8/B+n+/F874CxxzDMCzdV1VuNrfS0HyLptYWbjQ2kc1mrZmu68etImi6QcVEO0JFOwgXv5Y4deYsdafrOH/OxgWbDUVJWjPtTwXDzNUicNIpf6OlsYH6Kxe5VH+Zq9evkdlYPXFFCGVUxFgJd2yHgU8lC5e8i9vEGcnzWFqgZzxOwhMk3iux4Q2zG5Ap+mMU/FFLd0zd88vshRQEMbzOw4k1OgMpHgynue9dpH3sCx1jGTpGV+gM5uiZ3aYgRSi+CBF7OsTyM4lMr59Fu5eU6eP2t2w/n2TVMWVW1g4f9+e+ymbu/0p6uYxW9ervyuHn1eT+ZYTC8hRb8yK5OReb0UHyCx62Yq8s1iODFGQ3BcXPx+wE0tJLRpKv8SkDFsNVfAlTU26C6XcI+aib/HQ7nyefIL+5x/u+28z03+GD2MaMeJe4p42E7xEjaQ/OpS4c4S7EqB2n3I1j/sD3m3euVDcepQ9B/WVWrbZOrqwRksaRAtOMhmaRlQxhOc2cnEL7YRbUa7oaR7w5077DX+kOaR5U2J+uAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림3. 참조형 타입의 메모리 참조 방법 - 2&quot;
+        title=&quot;그림3. 참조형 타입의 메모리 참조 방법 - 2&quot;
+        src=&quot;/static/01db8f558927125ba193cba387cfbfe9/18c13/datatype-referMemory-03.png&quot;
+        srcset=&quot;/static/01db8f558927125ba193cba387cfbfe9/5a46d/datatype-referMemory-03.png 300w,
+/static/01db8f558927125ba193cba387cfbfe9/0a47e/datatype-referMemory-03.png 600w,
+/static/01db8f558927125ba193cba387cfbfe9/18c13/datatype-referMemory-03.png 1005w&quot;
+        sizes=&quot;(max-width: 1005px) 100vw, 1005px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;3003번에 20을 저장한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;식별자 obj&lt;/code&gt;를 검색해 찾은 다음 그 값인 3000번을 참조해 들어가 5001번까지 참조한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;식별자 a&lt;/code&gt;를 5001번부터 검색해 찾아 그 값을 3001번에서 3003번으로 변경한다.&lt;/li&gt;
+&lt;li&gt;3001번은 참조 카운트가 0이 되어 GC(Garbage Collection)에 의해 초기화된다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;메모리에-값이-아닌-주소값을-저장하는-이유&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EA%B0%92%EC%9D%B4-%EC%95%84%EB%8B%8C-%EC%A3%BC%EC%86%8C%EA%B0%92%EC%9D%84-%EC%A0%80%EC%9E%A5%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0&quot; aria-label=&quot;메모리에 값이 아닌 주소값을 저장하는 이유 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;메모리에 값이 아닌 주소값을 저장하는 이유&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1005px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAACD0lEQVQoz2WPT0ySARiHOXbt2rq0VQdXi1W2Vlt1r1Nr61Zbq6atg1249G/Vygo9pIiAMx2pKJYagZifn/BBkCCZgYGiDEx0iqSm4J9EnpCxWvPZnsP7/t69e19ZZitLJpultLQMefFpzl04z6mzZzhytBj5sWIGvwyxze/1DdbSq6RTKdIrKTbW1v+6mkrnc3K7ZBS4cvkSe3bvQn54P4dyHjywl6KifYwNe/N5IrVEu/U93XYBo6WLweA3TH1WBLfEB7GHQCycn5O1BxapGZjn4iM9x6+Xc7JEyYmbzwuWc68zgGVshUXrMDN6iWiznalmiWmDk6i+n8kmO7FcL9niZskWRKZ2/uBxbwzV5zle2uNUSNOovQvUeJLUen/ytD+OzhFlxiAxWycS0pgJq82MqkyMa7uJaK0E1SbmdCLxd65/L2+zlFxgITHPDrL/l4nFZZK/0juire2X4z4DMekVQaGK2CcN0wP1RJ1aJl06wnYNMYeKCY+RNm8Davsz6myVtA7peOt/jcGnRe9S0eFvpG1Ei23CjGzWU0/C+YLxvkp8RgWC5gbm6mtYqq7SXXsLR8NtvCYlXaEmmkM1NHqqqfj4gIftd3jSqUDRUML9ljKU4l3euDXI1jKQKZw8Ep6itcOKsasHQfLiD0UZGokQCEVgk7wby5sEBoP0mkQcggvBLCJabIx+DTP+PcIf+p0EK/+qjrkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림4. 메모리에 주소를 저장&quot;
+        title=&quot;그림4. 메모리에 주소를 저장&quot;
+        src=&quot;/static/feec5953526e9cc9389abf3c5314ecd1/18c13/datatype-referMemory-04.png&quot;
+        srcset=&quot;/static/feec5953526e9cc9389abf3c5314ecd1/5a46d/datatype-referMemory-04.png 300w,
+/static/feec5953526e9cc9389abf3c5314ecd1/0a47e/datatype-referMemory-04.png 600w,
+/static/feec5953526e9cc9389abf3c5314ecd1/18c13/datatype-referMemory-04.png 1005w&quot;
+        sizes=&quot;(max-width: 1005px) 100vw, 1005px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 994px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAACGklEQVQoz2WPTUiTARjHd+ocdAuMkAJ1sDoU2LkgunTrVoPCpEOXyEtE9B1kUhKmtnSbmzZpW3O+Wzppa5u+a35ty29nmTVHNm1zn6Ju/Xp7s0P0hx//h+eL51EUf8LmdpGz52qoVB2l+sRxjhyrpkKpYl/5AUbGQvxWNp2RSafWyWWysm/kC3JcyOXlWnFrGwU7OnP6FHt370KlLKeyaj8VB8soK9vDwsSYXHcH/Jgcr7ENOHk3GsDu7kOMjNLVY5bd6hLIsoXCEE5SP5jg5HUdygsPOVzbgKqmnkMX66lS3+WqZZLuuQIJYZzVdh8xg5cVo5+EcZBYh5eYzkNM72HNMESqM4BCI8Z45I3RNvKdluFVmobi6D5k0IVS6ENJHvvjvBiO88UqSkODzLS/Ye65k1mJaGsvn9r6mNQ4WDH4+NElSi8XS3+/JpVIsPx5if9UKrG501aUWEvniCfTbCXXKaWz/7QqvkUsxN9riPo0fA3qiI8aJe+Q0LMoalkSNSyH7QgjBrQ9degDzZjDbQhRE9YxDd2Oe9hnXmKfN9C7YJQWBltJ+O6z5Gkg9KoOV/N5nE/V9DepcbXU4tNeYtz2ANukkc75Z2iDjTS6b3PLeoU7tjquGS/LNHhu8MR3E0U6XyS//efcqdlFBsx2TOZeHC4vkemPBMeniUzNk1/fgALkkgVmwnMIFicDwlv6JUSLwHRwQspH+QURnwCjCHg3DAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림5. 메모리에 직접 값을 저장&quot;
+        title=&quot;그림5. 메모리에 직접 값을 저장&quot;
+        src=&quot;/static/e565fce816bebbe0ace77136d1892838/75609/datatype-referMemory-05.png&quot;
+        srcset=&quot;/static/e565fce816bebbe0ace77136d1892838/5a46d/datatype-referMemory-05.png 300w,
+/static/e565fce816bebbe0ace77136d1892838/0a47e/datatype-referMemory-05.png 600w,
+/static/e565fce816bebbe0ace77136d1892838/75609/datatype-referMemory-05.png 994w&quot;
+        sizes=&quot;(max-width: 994px) 100vw, 994px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;자바스크립트는 위의 그림처럼 메모리에 주소값을 저장하기 때문에 기본형 타입은 메모리상에 오직 하나만 존재한다는 특징이 있다. 하지만 이는 데이터를 저장할 때마다 메모리상에 동일한 데이터의 존재 여부를 확인해야한다는 의미이다. 그래서 이런 방법이 최선이 아니라고 생각할 수 있는데 아래의 예시로 살펴보자.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1005px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACsklEQVQoz22S20uTcRjH3/8huojowkzLzs1zZFYEXQeRFhF0E3TRZVTgZXmotJZhdtbSMmikqEun87S55THCjOW2d5t7N+fUUZm6zblPv71aFPXAw3P4fp/v7/fAIyEsFoslAj09fezdk01m3mGOHcwlPyeLAxka8rPSydHsW82zM0jekkJBwanfc/F4nF8mLa/ECUeX1aL1nYF169eTlLKF7LRUcrcmoUlJ4tDOFLK2JZOeupmje7axYeNGjp8uJByOEhNa0dgKCZ2YcIk/bGzQzJH9meRlbhc/2c2xvGzyD2jYtSMNjRDcKx7J2JFK2uZNnDt9gv+ZVGoOccs8Q4V5mqI2D6fKmyi81ShiIyfLW7j4uJOKBgMFlUbOals5U2kQeBPnn5go71HQWue4awly2xqiaTyEVNYXoOjtRy6/tHDTFOBer5sqs5f7witNCnWjM3R+8qEdnqdMP45WDFf1+7jTP02F0cmVNx+4UN1GaZeXOqtrdeWgf4pJ2UU8Ev13h+UYodlZNVXcHqILi3/BS9+/43E41TwiMCk49IjAcC3KwDPmPtTwpacae+8DHH0PcPZW4Rt5jWLrZ2rgMS7rc8GrwW56ivf9MxGf4B2oxW2txT9YQ+BzhxDsK+Gj7ioDry7h67rGuL4UW9sNJgw3cBhK8FkfIo80M2cqZlRXhGK8zkR7CUpXsRo9ncU4BS/QW4rn/QukBXExNtnPyJid0EKcxAElriq2ttK3xTiKP8jSCny2ewh+Dav98NrpRdZ4i2IgMPsNSXbacckOJj1u3C7nmstq7ZKdeL0efszPMxMMIDsdOOxf1L7inVR5isAdjgmC01NEwktI9fX1NDc3097ejtFopLu7m5aWFvR6PQaDgaGhIfUHsizT0NCgYgmuxWJBp9PR0dGh9mw2m8r7CTf1vXrML81eAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림6. 용량이 무지막지하게 큰 문자열을 비교해야한다면?&quot;
+        title=&quot;그림6. 용량이 무지막지하게 큰 문자열을 비교해야한다면?&quot;
+        src=&quot;/static/5f14b8fd63abe2af2001f8da94bcbeaa/18c13/datatype-referMemory-06.png&quot;
+        srcset=&quot;/static/5f14b8fd63abe2af2001f8da94bcbeaa/5a46d/datatype-referMemory-06.png 300w,
+/static/5f14b8fd63abe2af2001f8da94bcbeaa/0a47e/datatype-referMemory-06.png 600w,
+/static/5f14b8fd63abe2af2001f8da94bcbeaa/18c13/datatype-referMemory-06.png 1005w&quot;
+        sizes=&quot;(max-width: 1005px) 100vw, 1005px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;메모리에 직접 값을 저장할 경우에 할당 시에는 동일한 데이터를 찾아볼 필요가 없으니까 빠를 것이다. 하지만 비교 연산에 큰 비용이 발생하게 된다. 비교할 대상의 값이 커지면 커질수록 비용은 순식간에 불어날 것이다.&lt;/p&gt;
+&lt;p&gt;반면에 메모리에 주소값을 저장하면 데이터 할당 시에 동일한 데이터를 찾아봐야 함으로 시간이 걸리지만 비교할 때는 주소값만 서로 비교해보면 되기 때문에 비용이 들지 않는다. 또한 메모리에 동일한 데이터가 하나만 존재하니 메모리 낭비도 적을 것이다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;center&gt;메모리에 값을 직접 저장&lt;/center&gt;&lt;/th&gt;
+&lt;th&gt;&lt;center&gt;메모리에 주소값을 저장 &lt;/center&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;center&gt;데이터 할당 &lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt; 빠르다(🐇)&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt; 느리다(🐢) &lt;/center&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;center&gt;비교 연산&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt; 느리다(🐢) &lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt; 빠르다(🐇) &lt;/center&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;center&gt;메모리 낭비&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt; 크다 &lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt; 적다 &lt;/center&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&quot;참조형-타입을-복사할-때-주의해야하는-점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0%ED%98%95-%ED%83%80%EC%9E%85%EC%9D%84-%EB%B3%B5%EC%82%AC%ED%95%A0-%EB%95%8C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%EC%A0%90&quot; aria-label=&quot;참조형 타입을 복사할 때 주의해야하는 점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조형 타입을 복사할 때 주의해야하는 점&lt;/h1&gt;
+&lt;p&gt;자바스크립트에서는 참조형 타입의 변수를 복사하는 경우에 복사한 참조형 타입의 프로퍼티를 변경하면 원본의 값이 바뀐다. 이게 무슨 의미인지 아래의 예시를 통해 확인해보자.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 994px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACQklEQVQoz4WS30tTYRjHz32UYmBe5ZTM/EG1cGV1YT8Iuuqqm9A/IG8KU6HbLoqgm+zCi5oYbc6YImm1mSUoBFIaajl33KxkukP+WG5nurmds316zymGSOUDH973eR6eL9/3PEdiW2SzWXRdN+9dzm6qqk5hq63l/OULWGtsWCyluN09Zl/TNP4W0r8EO+ydFB6wUFJeSVlZOZaSUvblFeBwOP8vaIhsR9N+C9qFYFHRQapPnqbaZqXiSAUF+wvp6nLlBHfOGkhZw9k2ND1jDjy2d5CXny+EDmGtPExZcTF79ublHOqGw53DWePJWaMhXJmnQEuZA26Xi6NVVmxn6zhRU8O5SxepPHac7h632U9lNHShYGBY0P7cpatuhQanj2u9S9R3B8UZFrmfK50ydfeGOGOXcbZ7kesfMtLwgPHr7citDgItDj43dxJscTLd1MHK7V4WWl1Io74QfaOfeDc5T//7ad5MzPF8aAzPR79Zn1lJEPqmkAwobAQVVHmJwMgEix98LE8Gic6GzFpcEB73IyWSGus/Y8TjCWLROKqaIBIRubrJ6lqUjHjPekzkqQTqlsEmseSGyZq6zmZ6i6SeJqGniKhRpFVvI19f3CD06iaLnmbC3iaWvM3Mi9qPwVtEBhvZUL6giw+updNiGXqOjFigltZyGIuSVmdfo/jeMjn8jN4nd/A47zPw9C7DPY8Y7WtjrL8NZUHO/ae7hRTfwtxS4HuYvoFBPEMjvPQOMzUzx8SUn/EpmeWVtZzgbvwC9X7oJxVxBIQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림7. 기본형 타입과 참조형 타입의 복사 - 1&quot;
+        title=&quot;그림7. 기본형 타입과 참조형 타입의 복사 - 1&quot;
+        src=&quot;/static/1b7e0aee046c373b64bd92de3fb54c10/75609/datatype-referMemory-07.png&quot;
+        srcset=&quot;/static/1b7e0aee046c373b64bd92de3fb54c10/5a46d/datatype-referMemory-07.png 300w,
+/static/1b7e0aee046c373b64bd92de3fb54c10/0a47e/datatype-referMemory-07.png 600w,
+/static/1b7e0aee046c373b64bd92de3fb54c10/75609/datatype-referMemory-07.png 994w&quot;
+        sizes=&quot;(max-width: 994px) 100vw, 994px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위의 그림을 보면 &lt;code class=&quot;language-text&quot;&gt;b&lt;/code&gt;가 기본형 타입인 &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;를, &lt;code class=&quot;language-text&quot;&gt;obj2&lt;/code&gt;가 참조형 타입인 &lt;code class=&quot;language-text&quot;&gt;obj1&lt;/code&gt;을 복사하고 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 994px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABlElEQVQoz42O30tTcRjGz//VXREESaYsULBdnPQmyIuQQswLlfwPCqzMi5LpyGWkNLzwwglOZm1n7qdjzm22XHg2d/Y933OOs306nu5HD3x4nueFFx6FHtLPfuIf8jHou8utvjvcuH2TbLHQ6wVFq5nsldtES02iJy32Xa794FSwESvgG59h8PEzJh6O8mTAz/f1bWSuhh4voieKNBLHnre0EjJZQZkMVxlZLaEGMqhrJ4ys5PEHjlCDBR6t5lFDVeajBudLuzRebpKaXiYx8Z7U5AcyL5bJuqSnPnI8HUSf/YriWDYXjSZa8pByKo2dz1E8KhDZibDrUi1XcaRFvXmOuLJptC84/f3L67qbW5agaRoYjsTmCkWvaMizJFuhdwQW5nHqGbKxMONqP3PPx6jldhD1HG3DQJoSIQSObbvZ9LIpTA/pYkmJUglPUV7zk14Z48fSMJHX94m8GmD/zQOib4fQFu+R//yUTueS/5EirA6Xf/6VeDJD8NM6oS+bfNvaJnGYZS8W9+62u+pa3W63J38BPKjjmkCE6YkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그림8. 기본형 타입과 참조형 타입의 복사 - 2&quot;
+        title=&quot;그림8. 기본형 타입과 참조형 타입의 복사 - 2&quot;
+        src=&quot;/static/98b97004b16dd3665d98f3f77c692864/75609/datatype-referMemory-08.png&quot;
+        srcset=&quot;/static/98b97004b16dd3665d98f3f77c692864/5a46d/datatype-referMemory-08.png 300w,
+/static/98b97004b16dd3665d98f3f77c692864/0a47e/datatype-referMemory-08.png 600w,
+/static/98b97004b16dd3665d98f3f77c692864/75609/datatype-referMemory-08.png 994w&quot;
+        sizes=&quot;(max-width: 994px) 100vw, 994px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이 때 복사한 &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;의 값과 &lt;code class=&quot;language-text&quot;&gt;obj2&lt;/code&gt;의 프로퍼티를 변경해보면 기본형 타입의 경우에는 값이 변경됨에 따라 값이 함께 바뀐다. 하지만 참조형 타입의 경우에는 기본형 타입보다 한 단계를 더 거쳐서 참조 하기 때문에 값이 변하지 않는다. 이 떄문에 분명 복사된 &lt;code class=&quot;language-text&quot;&gt;obj2&lt;/code&gt;의 프로퍼티를 변경했는데 원본인 &lt;code class=&quot;language-text&quot;&gt;obj1&lt;/code&gt;의 프로퍼티 또한 변경된 것이다. 이 점을 숙지하고 주의하도록 하자.&lt;/p&gt;
+&lt;h1 id=&quot;참조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0&quot; aria-label=&quot;참조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Disqus&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; utterances&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bit.ly/3L1uo8d&quot;&gt;https://bit.ly/3L1uo8d&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;8-support-latex&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#8-support-latex&quot; aria-label=&quot;8 support latex permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;8. Support latex&lt;/h2&gt;
-&lt;p&gt;Support latex rendering with katex plugin.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tex&quot;&gt;&lt;pre class=&quot;language-tex&quot;&gt;&lt;code class=&quot;language-tex&quot;&gt;&lt;span class=&quot;token equation string&quot;&gt;$$&lt;span class=&quot;token equation-command regex&quot;&gt;\prod&lt;/span&gt;_{i=a}^{b} f(i)$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msubsup&gt;&lt;mo&gt;∏&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/msubsup&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\prod_{i=a}^{b} f(i)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.2887179999999998em;vertical-align:-0.29971000000000003em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop&quot;&gt;&lt;span class=&quot;mop op-symbol small-op&quot; style=&quot;position:relative;top:-0.0000050000000000050004em;&quot;&gt;∏&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.9890079999999999em;&quot;&gt;&lt;span style=&quot;top:-2.40029em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mrel mtight&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2029em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;b&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.29971000000000003em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10764em;&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&quot;9-other-features-of-this-template&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#9-other-features-of-this-template&quot; aria-label=&quot;9 other features of this template permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;9. Other features of this template&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;You can add resume to &lt;code class=&quot;language-text&quot;&gt;/about&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Lazy rendering&lt;/li&gt;
-&lt;li&gt;Scroll restoration&lt;/li&gt;
-&lt;li&gt;Categorize posts&lt;/li&gt;
-&lt;li&gt;Offline caching with service worker (based gatsby)&lt;/li&gt;
-&lt;li&gt;Support GA(Google Analytics)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Let’s Start! &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;Go&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Category Test3]]></title><description><![CDATA[Test1]]></description><link>https://gatsby-starter-bee.netlify.com/category3/test3/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/category3/test3/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Category Test2]]></title><description><![CDATA[Test1]]></description><link>https://gatsby-starter-bee.netlify.com/category2/test2/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/category2/test2/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Category Test4]]></title><description><![CDATA[Test1]]></description><link>https://gatsby-starter-bee.netlify.com/category4/test4/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/category4/test4/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Category Test1]]></title><description><![CDATA[Test1]]></description><link>https://gatsby-starter-bee.netlify.com/category1/test1/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/category1/test1/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test9]]></title><description><![CDATA[Test9]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test9/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test9/</guid><pubDate>Sun, 14 Jun 2020 16:29:13 GMT</pubDate><content:encoded>&lt;p&gt;Test9&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test8]]></title><description><![CDATA[Test8]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test8/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test8/</guid><pubDate>Sun, 14 Jun 2020 16:28:13 GMT</pubDate><content:encoded>&lt;p&gt;Test8&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test7]]></title><description><![CDATA[Test7]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test7/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test7/</guid><pubDate>Sun, 14 Jun 2020 16:27:13 GMT</pubDate><content:encoded>&lt;p&gt;Test7&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test6]]></title><description><![CDATA[Test6]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test6/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test6/</guid><pubDate>Sun, 14 Jun 2020 16:26:13 GMT</pubDate><content:encoded>&lt;p&gt;Test6&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test5]]></title><description><![CDATA[Test5]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test5/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test5/</guid><pubDate>Sun, 14 Jun 2020 16:25:13 GMT</pubDate><content:encoded>&lt;p&gt;Test5&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test4]]></title><description><![CDATA[Test4]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test4/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test4/</guid><pubDate>Sun, 14 Jun 2020 16:24:13 GMT</pubDate><content:encoded>&lt;p&gt;Test4&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test3]]></title><description><![CDATA[Test3]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test3/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test3/</guid><pubDate>Sun, 14 Jun 2020 16:23:13 GMT</pubDate><content:encoded>&lt;p&gt;Test3&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test2]]></title><description><![CDATA[Test2]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test2/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test2/</guid><pubDate>Sun, 14 Jun 2020 16:22:13 GMT</pubDate><content:encoded>&lt;p&gt;Test2&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test1]]></title><description><![CDATA[Test1]]></description><link>https://gatsby-starter-bee.netlify.com/essay/test1/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/essay/test1/</guid><pubDate>Sun, 14 Jun 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Second Post]]></title><description><![CDATA[Second Post]]></description><link>https://gatsby-starter-bee.netlify.com/development/second/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/development/second/</guid><pubDate>Sun, 03 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Second Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Third Post]]></title><description><![CDATA[Third Post]]></description><link>https://gatsby-starter-bee.netlify.com/development/third/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/development/third/</guid><pubDate>Fri, 01 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Third Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://gatsby-starter-bee.netlify.com/resume-en/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
+&lt;br/&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://leo-xee.github.io/resume-en/</link><guid isPermaLink="false">https://leo-xee.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
 &lt;div align=&quot;center&quot;&gt;
 &lt;p&gt;&lt;em&gt;Thank you for reading my resume. If you want to contact me, Please send me an email.&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Draft]]></title><description><![CDATA[Draft Post]]></description><link>https://gatsby-starter-bee.netlify.com/development/draft/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/development/draft/</guid><pubDate>Thu, 03 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Draft Post&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/div&gt;</content:encoded></item></channel></rss>
