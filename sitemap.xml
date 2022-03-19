@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://leo-xee.github.io/PS/ps/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/React/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/Book/book/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://leo-xee.github.io/DevOps/git/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/CS/cs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/TypeScript/ts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://leo-xee.github.io/JavaScript/js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/JavaScript/prototype/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b1316/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b2941/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b5622/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/react-useeffect-dependency/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/node-bodyparser/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/DevOps/github-connect/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/yarn-concurrently/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b1157/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b2675/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b10809/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b1065/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b4673/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/JavaScript/this/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/JavaScript/execution-context/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/JavaScript/datatype-referMemory/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
