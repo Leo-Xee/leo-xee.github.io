@@ -32,6 +32,8 @@ HTTP METHOD서버에 요청을 보내기 위한 방식으로 GET, POST, PUT, DEL
 
 **URI는 어떤 자원을 식별하기 위한 데이터 서식을 정의한 기술표준이다.** 어떤 자원을 식별하기 위한 방식으로 두 가지가 있는데 바로 `URN`과 `URL`이다. URN은 자원의 이름으로 식별하는 방식이고 `urn:namespace:the:Id:for:file`와 같은 형식으로 사용되며 `URL`은 자원의 위치로 식별하는 방식이고 `https://github.com/leo-xee`와 같은 형식으로 사용된다.
 
+![그림 URI, URN, URL의 관계도](./images/rest-api-01.png)
+
 # 특징
 
 **Uniform Interface**
