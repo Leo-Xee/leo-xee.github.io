@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://leo-xee.github.io/React/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://leo-xee.github.io/Book/book/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://leo-xee.github.io/CS/cs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://leo-xee.github.io/TypeScript/ts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-msw/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/CS/rest-api/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/ts-no-indexsignature/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/DevOps/git-emptydir/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Web/browser-rendering/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/prettier-crlf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/JavaScript/callby-value-reference/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-setup-eslint/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-setup-ts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-setup-webpack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-setstate/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-portals/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/react-svg/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-font/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/TypeScript/introduce/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/next/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Web/csr-ssr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Node/concurrently/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Algorithm/setup-cpp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/node-router/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/Error/unknown-cask/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/why-state-management/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/JavaScript/closure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/React/react-eslint-airbnb/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b9012/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b9093/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://leo-xee.github.io/PS/b10828/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/JavaScript/prototype/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/PS/b1316/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://leo-xee.github.io/PS/b2941/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
