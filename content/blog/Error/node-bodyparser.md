@@ -1,5 +1,5 @@
 ---
-title: '[Node] Warning: bodyParser was deprecated'
+title: 'Warning: bodyParser was deprecated'
 date: 2021-12-09 10:38:00
 category: Error
 thumbnail: { thumbnailSrc }

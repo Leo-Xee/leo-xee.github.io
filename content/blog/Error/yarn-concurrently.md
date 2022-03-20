@@ -1,5 +1,5 @@
 ---
-title: '[Yarn] Error: listen EADDRINUSE: address already in use :::Port'
+title: 'Error: listen EADDRINUSE: address already in use :::Port'
 date: 2021-12-05 16:52:00
 category: Error
 thumbnail: { thumbnailSrc }

@@ -1,5 +1,5 @@
 ---
-title: '[React] Error: React Hook useEffect has a missing dependency'
+title: 'Error: React Hook useEffect has a missing dependency'
 date: 2021-12-10 16:55:00
 category: Error
 thumbnail: { thumbnailSrc }
