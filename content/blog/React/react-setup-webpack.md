@@ -156,9 +156,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      filename: './index.html',
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: 'public/assets', to: 'assets' }],
+      patterns: [{ from: 'public/assets', to: 'assets/' }],
     }),
   ],
   resolve: {

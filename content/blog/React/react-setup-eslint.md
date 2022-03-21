@@ -53,6 +53,9 @@ $ yarn add -D eslint-config-airbnb
 # airbnb 규칙의 의존성 패키지들
 $ yarn add -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 
+# tsconfig의 baseURL과 Path에서 설정한 절대경로 관련 규칙
+$ yarn add -D eslint-import-resolver-typescript
+
 # airbnb 타입스크립트 규칙
 $ yarn add -D eslint-config-airbnb-typescript
 ```
@@ -88,6 +91,11 @@ $ yarn add -D eslint-config-airbnb-typescript
     "plugin:prettier/recommended"
   ],
   "plugins": ["prettier", "@typescript-eslint"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }]
   }
@@ -114,6 +122,11 @@ $ yarn add -D eslint-config-airbnb-typescript
   },
   "extends": ["airbnb", "airbnb-typescript", "plugin:prettier/recommended"],
   "plugins": ["prettier", "@typescript-eslint"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }]
   }

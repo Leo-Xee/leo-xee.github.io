@@ -6,6 +6,8 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+![](./images//thumbNail.gif)
+
 # ⚠️ 에러 내용
 
 React의 ContextAPI를 사용해서 코드를 작성하다가

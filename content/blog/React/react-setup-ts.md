@@ -6,6 +6,8 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+![](./images/thumbNails/React.gif)
+
 이 글에서는 밑바닥부터 React 개발 환경 구축하기 1편에 이어서 Typescript를 설치 및 적용하는 과정을 정리합니다.
 
 # 시리즈
@@ -41,7 +43,6 @@ $ yarn add -D typescript @babel/preset-typescript ts-loader @types/react @types/
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "baseUrl": ".",
     "allowJs": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -56,7 +57,11 @@ $ yarn add -D typescript @babel/preset-typescript ts-loader @types/react @types/
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
@@ -71,6 +76,7 @@ Webpack이 타입스크립트를 인식할 수 있도록 `webpack.config.js` 파
 /* webpack.config.js */
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const ForkCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const path = require('path')
 
@@ -84,12 +90,19 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      filename: './index.html',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: 'public/assets', to: 'assets/' }],
     }),
     new ForkCheckerWebpackPlugin({ silent: true }),
   ],
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.css', '.json'],
+    alias: {
+      '@': path.resolve(__dirname, 'src/'),
+    },
   },
   devServer: {
     client: {
