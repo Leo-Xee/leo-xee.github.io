@@ -168,9 +168,10 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token keyword">new</span> <span class="token class-name">HtmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
       template<span class="token operator">:</span> <span class="token string">'./public/index.html'</span><span class="token punctuation">,</span>
+      filename<span class="token operator">:</span> <span class="token string">'./index.html'</span><span class="token punctuation">,</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
     <span class="token keyword">new</span> <span class="token class-name">CopyWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-      patterns<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> from<span class="token operator">:</span> <span class="token string">'public/assets'</span><span class="token punctuation">,</span> to<span class="token operator">:</span> <span class="token string">'assets'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      patterns<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> from<span class="token operator">:</span> <span class="token string">'public/assets'</span><span class="token punctuation">,</span> to<span class="token operator">:</span> <span class="token string">'assets/'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
   <span class="token punctuation">]</span><span class="token punctuation">,</span>
   resolve<span class="token operator">:</span> <span class="token punctuation">{</span>
