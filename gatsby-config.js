@@ -96,8 +96,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://your-blog.netlify.app',
-        sitemap: 'https://your-blog.netlify.app/sitemap.xml',
+        host: 'https://leo-xee.github.io',
+        sitemap: 'https://leo-xee.github.io/sitemap.xml',
         policy: [
           {
             userAgent: '*',
@@ -120,5 +120,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-advanced-sitemap`,
   ],
 }
