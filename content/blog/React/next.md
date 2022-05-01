@@ -89,3 +89,5 @@ Next.js는 SSR, SSG를 지원하고 다양한 옵션을 제공한다.
 `getStaticProps`, `getStaticPaths`, `getServerSideProps`등과 같은 API를 개발자에게 제공함으로써 특정 페이지를 그냥 CSR로 처리할지, SSR로 처리할지 또는 서버에 HTML을 미리 만들어두거나 `Pre-Rendering` 할 것인지... 등의 다양한 옵션을 해당 페이지의 특성에 맞게 개발자가 개발할 수 있도록 도와준다.
 
 이 외에도 이미지, 폰트 최적화등 다양한 기능들을 제공한다.
+
+<br>
