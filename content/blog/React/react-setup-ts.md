@@ -56,6 +56,7 @@ $ yarn add -D typescript @babel/preset-typescript ts-loader @types/react @types/
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "sourceMap": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
@@ -93,13 +94,15 @@ module.exports = {
       filename: './index.html',
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: 'public/assets', to: 'assets/' }],
+      patterns: [
+        { from: '/src/assets', to: 'assets/', noErrorOnMissing: true },
+      ],
     }),
-    new ForkCheckerWebpackPlugin({ silent: true }),
+    new ForkCheckerWebpackPlugin(),
   ],
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
-    extensions: ['.ts', '.tsx', '.js', '.jsx', '.css', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
     alias: {
       '@': path.resolve(__dirname, 'src/'),
     },
@@ -109,6 +112,7 @@ module.exports = {
       overlay: true,
       progress: true,
     },
+    compress: true,
     hot: true,
     open: true,
     port: 3000,
@@ -116,7 +120,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(ts|tsx)$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: [
           'babel-loader',
@@ -130,7 +134,7 @@ module.exports = {
       },
       { test: /\.css$/, use: ['style-loader', 'css-loader'] },
       {
-        test: /\.png|svg|jpg|gif$/,
+        test: /\.(png|svg|jpg|gif)$/,
         use: { loader: 'file-loader', options: { name: '[name].[ext]' } },
       },
     ],

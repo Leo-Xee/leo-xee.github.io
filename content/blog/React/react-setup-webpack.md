@@ -159,12 +159,14 @@ module.exports = {
       filename: './index.html',
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: 'public/assets', to: 'assets/' }],
+      patterns: [
+        { from: '/src/assets', to: 'assets/', noErrorOnMissing: true },
+      ],
     }),
   ],
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
-    extensions: ['.js', '.jsx', 'css', '.json'],
+    extensions: ['.js', '.jsx'],
   },
   /* webpack-dev-server의 옵션 설정 */
   devServer: {
@@ -172,6 +174,7 @@ module.exports = {
       overlay: true, // 브라우저에 에러 표시
       progress: true, // 진행상황 표시
     },
+    compress: true,
     hot: true, // 저장할 때마다 수정사항 반영
     open: true, // 브라우저 자동 실행
     port: 3000, // 실행할 포트 설정
@@ -189,7 +192,7 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.png|svg|jpg|gif$/,
+        test: /\.(png|svg|jpg|gif)$/,
         use: {
           loader: 'file-loader',
           options: {
@@ -204,7 +207,7 @@ module.exports = {
 
 # React 컴포넌트 생성
 
-src 디렉토리에 `index.js`와 `App.jsx`를 다음과 같이 생성한다.
+src 디렉토리에 `index.jsx`와 `App.jsx`를 다음과 같이 생성한다.
 
 ```jsx
 /* src/index.jsx */

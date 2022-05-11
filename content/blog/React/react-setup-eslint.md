@@ -83,14 +83,16 @@ $ yarn add -D eslint-config-airbnb-typescript
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
+  "ignorePatterns": ["webpack.config.js"],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint",
+    "recommended-requiring-type-checking",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier", "@typescript-eslint"],
+  "plugins": ["prettier", "@typescript-eslint", "import"],
   "settings": {
     "import/resolver": {
       "typescript": {}
@@ -106,6 +108,7 @@ $ yarn add -D eslint-config-airbnb-typescript
 /* .eslintrc.json - airbnb 세팅 */
 
 {
+  "root": true,
   "env": {
     "browser": true,
     "es6": true,
@@ -120,8 +123,17 @@ $ yarn add -D eslint-config-airbnb-typescript
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "extends": ["airbnb", "airbnb-typescript", "plugin:prettier/recommended"],
-  "plugins": ["prettier", "@typescript-eslint"],
+  "ignorePatterns": ["webpack.config.js"],
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint",
+    "recommended-requiring-type-checking",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier", "@typescript-eslint", "import"],
   "settings": {
     "import/resolver": {
       "typescript": {}
