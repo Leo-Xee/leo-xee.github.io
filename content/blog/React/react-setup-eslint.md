@@ -15,6 +15,7 @@ draft: false
 - [밑바닥부터 React 개발 환경 구축하기 - 1. Webpack](https://leo-xee.github.io/React/react-setup-webpack/)
 - [밑바닥부터 React 개발 환경 구축하기 - 2. Typescript](https://leo-xee.github.io/React/react-setup-ts/)
 - 밑바닥부터 React 개발 환경 구축하기 - 3. Eslint와 Prettier
+- [밑바닥부터 React 개발 환경 구축하기 - 4. Jest와 Testing-Library](https://leo-xee.github.io/React/react-setup-jest/)
 
 # eslint, prettier 관련 패키지 설치
 
