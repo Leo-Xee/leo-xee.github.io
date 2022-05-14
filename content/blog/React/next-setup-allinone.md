@@ -1,7 +1,7 @@
 ---
 title: 밑바닥부터 Next.js 개발 환경 구축하기 - All in One
 date: 2022-04-26 11:05:97
-category: react
+category: React
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -272,7 +272,17 @@ $ yarn add -D eslint-plugin-jest
   "plugins": ["prettier", "@typescript-eslint", "jest", "import"],
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
-    "react/react-in-jsx-scope": 0
+    "import/extensions": [
+      "error",
+      {
+        "tsx": "never",
+        "ts": "never",
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-props-no-spreading": 0
   }
 }
 ```
