@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-![](./images/thumbNail.gif)
+![](./images/thumbNail/thumbNail.gif)
 
 # ⚠️ 에러 내용
 
