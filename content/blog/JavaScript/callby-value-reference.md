@@ -1,5 +1,5 @@
 ---
-title: Call by value와 Call by reference
+title: '[JS] Call by value와 Call by reference'
 date: 2022-02-16 14:54:00
 category: JavaScript
 thumbnail: { thumbnailSrc }
