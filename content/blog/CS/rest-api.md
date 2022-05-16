@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-![](./images/thumbNail.gif)
+![](./images/thumbNail/thumbNail.gif)
 
 # REST API란?
 
