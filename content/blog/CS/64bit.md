@@ -1,7 +1,7 @@
 ---
 title: 64비트 시스템
 date: 2022-04-02 11:05:29
-category: cs
+category: CS
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -61,3 +61,5 @@ draft: false
 
 - 컴퓨터 저장용량 정리사이트 - https://www.aqua-calc.com/page/powers-of-two
 - 주소값 지정 제한의 이유 - https://stackoverflow.com/questions/6716946/why-do-x86-64-systems-have-only-a-48-bit-virtual-address-space
+
+<br>
