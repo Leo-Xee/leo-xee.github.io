@@ -60,7 +60,7 @@ import { Leo } from '<something>'
 const friend: Leo = "leo's friend"
 ```
 
-이제 프로젝트에서 Typescript의 타입 정의를 하나의 디렉토레에서 관리하면서 보다 쾌적한 환경에서 프로젝트를 구현해보자~!!
+이제 프로젝트에서 Typescript의 타입 정의를 하나의 디렉토리에서 관리해서 쾌적한 환경에서 프로젝트를 구현해보자~!!
 😊
 
 # 참고
