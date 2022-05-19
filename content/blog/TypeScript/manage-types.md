@@ -1,7 +1,7 @@
 ---
 title: '[TS] 프로젝트에서 타입 관리하기'
 date: 2022-05-16 18:05:85
-category: Typescript
+category: TypeScript
 thumbnail: { thumbnailSrc }
 draft: false
 ---

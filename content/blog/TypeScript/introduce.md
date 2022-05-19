@@ -1,7 +1,7 @@
 ---
 title: '[TS] 타입스크립트 소개 및 기초'
 date: 2022-01-15 16:04:00
-category: Typescript
+category: TypeScript
 thumbnail: { thumbnailSrc }
 draft: false
 ---
