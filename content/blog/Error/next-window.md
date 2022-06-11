@@ -64,19 +64,19 @@ export default SnackBar
 
 ```tsx
 function SnackBar({ message }: SnackBarProps) {
-  const [document, setDocument] = useState<Element | null>(null)
+  const [target, setTarget] = useState<Element | null>(null)
 
   const element = <Container>{message}</Container>
 
   useEffect(() => {
     if (document) {
-      setDocument(document.querySelector('#portal'))
+      setTarget(document.querySelector('#portal'))
     }
-  }, [document])
+  }, [])
 
-  if (!document) return <></>
+  if (!target) return <></>
 
-  return ReactDOM.createPortal(element, document)
+  return ReactDOM.createPortal(element, target)
 }
 
 export default SnackBar
