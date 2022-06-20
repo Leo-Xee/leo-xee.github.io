@@ -70,11 +70,12 @@ REST API 설계 시 가장 중요한 항목은 다음의 2가지로 요약할 �
 
 - `GET /posts/1` ----- (o)
 
-**자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.**
+**자원에 대한 행위는 HTTP Method(GET, POST, PUT, PATCH, DELETE)로 표현한다.**
 
-- `POST` : POST로 해당 URI로 요청하면 리소스를 생성
 - `GET` : GET으로 해당 리소스를 조회
-- `PUT`: PUT으로 해당 리소스를 수정
+- `POST` : POST로 해당 URI로 요청하면 리소스를 생성
+- `PUT`: PUT으로 해당 리소스를 수정(전체 교체)
+- `PATCH`: PATCH로 해당 리소스를 수정(부분 교체)
 - `DELETE` : DELETE로 해당 리소스를 삭제
 
 # 주의 사항
