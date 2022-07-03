@@ -2,7 +2,7 @@ module.exports = {
   title: `leo-xee.io`,
   description: `레오의 기술 블로그입니다.`,
   author: `Leo-Xee`,
-  introduction: `꾸준함과 함께를 기반으로한 성장을 추구하는 개발자 이장민입니다.`,
+  introduction: `안녕하세요. 꾸준함과 함께를 추구하는 프론트엔드 개발자 이장민입니다.`,
   siteUrl: `https://leo-xee.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
