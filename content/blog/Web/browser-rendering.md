@@ -39,9 +39,7 @@ draft: false
 
 # CSSOM 트리 생성
 
-**브라우저의 렌더링 엔진이 HTML을 한 줄씩 파싱하면서 DOM을 생성하다가 `link` 태그나 `style` 태그를 만나면 DOM 생성과 동시에 CSS 파일을 로드한 후 로드된 CSS 파일과 `style` 태그 내의 CSS를 파싱해서 CSSOM(CSS Object Model)을 생성한다.**
-
-정리하면 HTML 파싱을 진행하다가 CSS 관련 태그를 만나면 HTML 파싱 및 DOM 생성과 CSS 파싱 및 CSSOM 생성이 병렬적으로 동작한다.
+**브라우저의 렌더링 엔진이 HTML을 한 줄씩 파싱하면서 DOM을 생성하다가 `link` 태그나 `style` 태그를 만나면 HTML 파싱 및 DOM 생성을 잠시 멈춘다. 그 다음에 로드된 CSS 파일이나 `style` 태그 내부의 CSS를 파싱하면서 CSSOM(CSS Object Model)을 생성한다. 이 과정이 완료되면 다시 HTML 파싱 및 DOM 생성을 재개한다.**
 
 위에서 사용했던 HTML의 `style.css`로 CSSOM를 생성해보면
 
@@ -51,9 +49,9 @@ draft: false
 
 ![그림5. CSSOM 구성](./images/browser-rendering-05.png)
 
-위에서 언급한 병렬적 동작에 대해서 추가적으로 설명해보자면, **HTML과 CSS는 Render Blocking Resource(렌더 차단 리소스)이기 때문이다.**
+추가로 **HTML과 CSS는 Render Blocking Resource(렌더 차단 리소스)이다.**
 
-이 의미는 DOM과 CSSOM이 생성 완료되기 전까지는 파싱까지는 완료하되 화면에 렌더링은 하지 않는다는 뜻이다. 그렇다면 그 이유는 대체 무엇일까?
+이 의미는 DOM과 CSSOM의 생성이 모두 완료되기 전까지는 절대 화면에 렌더링은 하지 않는다는 뜻이다. 그렇다면 그 이유는 대체 무엇일까?
 
 ![그림6. NYT 사이트의 CSS 유무 비교](./images/browser-rendering-06.png)
 
