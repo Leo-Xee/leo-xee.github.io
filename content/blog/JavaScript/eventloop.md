@@ -1,5 +1,5 @@
 ---
-title: 이벤트 루프
+title: '[JS] 이벤트 루프'
 date: 2022-04-13 22:07:35
 category: JavaScript
 thumbnail: { thumbnailSrc }
