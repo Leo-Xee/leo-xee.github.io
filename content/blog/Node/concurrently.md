@@ -1,6 +1,6 @@
 ---
 title: Concurrently 사용법
-date: 2021-12-26 15:16:00
+date: 2022-02-26 15:16:00
 category: Node
 thumbnail: { thumbnailSrc }
 draft: false
