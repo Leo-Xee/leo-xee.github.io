@@ -1,7 +1,7 @@
 ---
 title: 밑바닥부터 Next.js 개발 환경 구축하기 - All in One
 date: 2022-04-26 11:05:97
-category: React
+category: Next
 thumbnail: { thumbnailSrc }
 draft: false
 ---

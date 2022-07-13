@@ -1,7 +1,7 @@
 ---
 title: Next.js
 date: 2022-01-10 23:46:00
-category: React
+category: Next
 thumbnail: { thumbnailSrc }
 draft: false
 ---
