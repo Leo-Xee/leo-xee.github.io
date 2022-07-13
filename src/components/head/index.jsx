@@ -50,10 +50,10 @@ export function Head({ description, lang, meta, keywords, title }) {
                 name: `twitter:description`,
                 content: metaDescription,
               },
-              // {
-              //   name: 'google-site-verification',
-              //   content: '',
-              // },
+              {
+                name: 'google-site-verification',
+                content: 'lcZz4Lk_boBvDC5DTSRqxys_TFCva33sxfk2L8GegRM',
+              },
               {
                 name: 'naver-site-verification',
                 content: 'b83538ab37bb4190a6d024afc109ad3580d43c36',

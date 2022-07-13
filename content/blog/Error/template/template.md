@@ -1,4 +1,4 @@
-![](./images/thumbNail.gif)
+![](./images/thumbNail/thumbNail.gif)
 
 # ⚠️ 에러 내용
 
