@@ -10,7 +10,7 @@ draft: false
 
 # 데이터 타입의 분류
 
-자바스크립트의 데이터 타읍은 크게 2종류로 나누어진다.
+자바스크립트의 데이터 타입은 크게 2종류로 나누어진다.
 
 기본형 타입(Primitive Type)
 
@@ -37,7 +37,7 @@ draft: false
 
 ![그림1. 기본형 타입의 메모리 참조 방법](./images/datatype-referMemory-01.png)
 
-1. 임의의 주소 1000번의 이름을 `식별자 a`를 지정한다.
+1. 임의의 주소 1001번의 이름을 `식별자 a`를 지정한다.
 2. 3001번에 `문자열 Dog`를 저장하고 `식별자 a`를 검색해 값을 3001번으로 지정한다.
 3. 3003번에 `문자열 Cat`을 저장하고 `식별자 a`를 검색해 값을 3001번에서 3003번으로 변경한다.
 4. 참조 카운트가 0이 된 3001번은 [GC(Garbage Collection)](https://developer.mozilla.org/en-US/docs/Glossary/Garbage_collection)에 의해 초기화된다.

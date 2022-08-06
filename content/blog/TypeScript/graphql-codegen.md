@@ -1,7 +1,7 @@
 ---
 title: GraphQL Code Generator로 타입선언 자동화하기
 date: 2022-07-25 18:08:93
-category: Typescript
+category: TypeScript
 thumbnail: { thumbnailSrc }
 draft: false
 ---
