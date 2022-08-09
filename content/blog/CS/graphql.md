@@ -184,3 +184,5 @@ Query: {
 
 - https://graphql.org/learn/
 - https://tech.kakao.com/2019/08/01/graphql-basic/
+
+<br/>

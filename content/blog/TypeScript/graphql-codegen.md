@@ -228,3 +228,5 @@ export const GetFollowingsDocument = gql`
 # 참조
 
 - https://www.graphql-code-generator.com/docs/getting-started
+
+<br/>
