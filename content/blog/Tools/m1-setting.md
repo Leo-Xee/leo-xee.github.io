@@ -1,7 +1,7 @@
 ---
 title: M1 Macbook 초기 세팅하기
 date: 2022-09-25 18:09:14
-category: tools
+category: Tools
 thumbnail: { thumbnailSrc }
 draft: false
 ---
