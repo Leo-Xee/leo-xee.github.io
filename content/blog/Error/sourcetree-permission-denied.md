@@ -1,6 +1,6 @@
 ---
 title: 'Error: Sourcetree Permission denied (public key)'
-date: 2022-09-25 22:09:04
+date: 2022-09-27 22:09:04
 category: Error
 thumbnail: { thumbnailSrc }
 draft: false
